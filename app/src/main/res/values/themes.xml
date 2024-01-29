@@ -1,0 +1,180 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Hairedo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
+        <item name="android:statusBarColor" >@color/black</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Hairedo" parent="Base.Theme.Hairedo" />
+
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_image</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+  <!-- Base application theme. -->
+    <style name="Base.splashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="enter_the_m">
+        <item name="android:textSize">27sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="enter_phone">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#80000000</item>
+    </style>
+    <style name="some_id">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="get_otp">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="by_clicking">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#121111</item>
+    </style>
+
+    <style name="verify_with">
+        <item name="android:textSize">27sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="skip_for_now">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="continue_btn">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="mobileNumber">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="resendOTP">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="retry_via">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="skip_">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="hi_">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="email">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="or">
+        <item name="fontFamily">@font/poppins</item>
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="connect_with_facebook">
+        <item name="fontFamily">@font/poppins</item>
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="don_t_have_">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#1E1E1E</item>
+    </style>
+
+    <style name="looks_like_">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="forgot_pass">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="don_t_worry">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="OtpWidget.OtpView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="recommended">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="see_more_">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="barbershop">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/home"
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home_icon_24"/>
+    <item android:title="@string/salons"
+        android:id="@+id/salonsFragment"
+        android:icon="@drawable/scissor_icon_30dp"/>
+    <item android:title="@string/map"
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/map_icon_30"/>
+    <item android:title="@string/try_on"
+        android:id="@+id/tryOnFragment"
+        android:icon="@drawable/camer_try_30dp"/>
+    <item android:title="@string/profile"
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile_icon_30"/>
+</menu>

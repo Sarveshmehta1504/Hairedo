@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "803683000963",
+    "project_id": "phoneauth-32921",
+    "storage_bucket": "phoneauth-32921.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803683000963:android:84eff286edb4ab657431b6",
+        "android_client_info": {
+          "package_name": "com.example.hairedo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSiic659X4niMkj23uYK6Sm7EmFN6CrO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803683000963:android:7f6e5e6450b7baff7431b6",
+        "android_client_info": {
+          "package_name": "com.example.phoneauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSiic659X4niMkj23uYK6Sm7EmFN6CrO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

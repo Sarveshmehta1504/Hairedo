@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/iphone_13_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/enter_mobile_number_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:textFontWeight="10"
+        android:text="@string/enter_the_m"
+        android:layout_marginStart="15sp"
+        android:layout_marginEnd="15dp"
+        android:textAppearance="@style/enter_the_m"
+        android:layout_centerHorizontal="true"
+        android:gravity="top"
+        android:autofillHints="phone"
+        android:layout_marginTop="92dp"
+        android:layout_alignParentTop="true"/>
+
+     <LinearLayout
+        android:id="@+id/phone_number_input"
+        android:layout_width="wrap_content"
+         android:minWidth="360dp"
+         android:minHeight="50dp"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="2dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/enter_mobile_number_bg"
+        android:layout_below="@+id/enter_mobile_number_TV"
+        android:orientation="horizontal">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_marginStart="4dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:ccpDialog_keyboardAutoPopup="false"
+            app:ccp_arrowSize="20sp"
+            app:ccp_autoFormatNumber="true"
+            app:ccp_showArrow="true"
+            app:ccp_countryPreference="IN"
+            app:ccp_showFlag="false"
+            app:ccp_showFullName="false"
+            app:ccp_showNameCode="false"
+            app:ccp_showPhoneCode="true"
+            app:ccp_textSize="20sp" />
+        <EditText
+             android:id="@+id/phone_number_et"
+             android:autofillHints="phone"
+             android:maxLength="11"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="15dp"
+             android:layout_marginEnd="15dp"
+             android:hint="@string/enter_phone"
+             android:inputType="phone"
+             android:fontFamily="@font/font"
+             android:textColor="@color/black"
+             android:textColorHint="#78909C"
+             android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/get_otp_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="23dp"
+        android:minWidth="360dp"
+        android:minHeight="50dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/get_otp_btn_bg"
+        android:text="@string/get_otp"
+        android:textAppearance="@style/get_otp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/by_clicking_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/get_otp_btn"
+        android:layout_alignStart="@+id/get_otp_btn"
+        android:layout_alignEnd="@+id/get_otp_btn"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal|top"
+        android:padding="2dp"
+        android:text="@string/by_clicking"
+        android:textAppearance="@style/by_clicking" />
+
+    <LinearLayout
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|top"
+        android:layout_marginBottom="106dp"
+        android:layout_marginStart="130dp"
+        android:clickable="true"
+        android:layout_marginEnd="106dp"
+        android:orientation="horizontal"
+        android:focusable="true">
+
+    <TextView
+        android:id="@+id/skip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip_for_now"
+        android:layout_marginEnd="9dp"
+        android:textAppearance="@style/skip_for_now"
+
+        />
+
+        <ImageButton
+            android:id="@+id/right_arrow"
+            android:minWidth="6dp"
+            android:minHeight="12dp"
+            android:contentDescription="@string/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/right_arrow" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/phoneProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

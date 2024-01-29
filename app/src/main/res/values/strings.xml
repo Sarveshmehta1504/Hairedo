@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Hairedo</string>
+    <string name="title_activity_enter_moblie_number">EnterMoblieNumber</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="enter_the_m">
+Enter the mobile number to get OTP
+</string>
+
+    <string name="enter_phone">
+Enter Phone Number
+</string>
+
+    <string name="some_id">
++91
+</string>
+    <string name="get_otp">
+Get OTP
+</string>
+    <string name="by_clicking">
+        By clicking, I accept the <u>terms of service</u> and <u>\nprivacy policy</u>
+</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verify_with">
+Verify with OTP sent to
+</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="continue_btn">Continue</string>
+    <string name="otp">otp</string>
+    <string name="_0">0</string>
+    <string name="sms">SMS</string>
+    <string name="retry_via">Retry via:</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="right_arrow">right_arrow</string>
+    <string name="skip"><![CDATA[Skip >]]></string>
+    <string name="hi">Hi!</string>
+    <string name="enter_your_email">Email</string>
+    <string name="password">Password</string>
+    <string name="or">or</string>
+    <string name="connect_with_facebook">Connect With Facebook</string>
+    <string name="looks_like_you_don_t_have_an_account_nlet_s_create_a_new_account">Looks like you don\'t have an account.\nLet\'s create a new account</string>
+    <string name="by_selecting_agree_and_continue_below_n_i_agree_to_terms_of_service_and_n_privacy_policy">By selecting Agree and continue below,\nI agree to Terms of Service and \nPrivacy Policy.</string>
+    <string name="agree_and_continue">Agree and Continue</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="don_t_worry_it_happens_please_enter_the_email_address_associated_with_your_account">Don\'t worry! it happens. Please enter the email address associated with your account.</string>
+    <string name="backarrow">backArrow</string>
+    <string name="submit">Submit</string>
+    <string name="check_out_your_mailbox_you_will_receive_an_email_containing_link_where_you_can_reset_your_password">Check out your mailbox, you will receive an email containing link where you can reset your password</string>
+    <string name="default_web_client_id">803683000963-hv4e4k4mun55c4gscgdvh0vfsa7bifeh.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="logo">logo</string>
+    <string name="camera_icon">camera_icon</string>
+    <string name="home">Home</string>
+    <string name="salons">Salons</string>
+    <string name="map">Map</string>
+    <string name="try_on">Try-on</string>
+    <string name="profile">Profile</string>
+    <string name="see_more"><u><![CDATA[See more >]]></u></string>
+    <string name="recommended">Recommended</string>
+</resources>
